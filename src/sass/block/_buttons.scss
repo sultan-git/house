@@ -1,0 +1,13 @@
+.button {
+    display: block;
+    width: 172px;
+    height: 37px;    
+    border-radius: 19px;
+    background-color: #d8ad47;
+    border: none;
+    cursor: pointer;
+    margin-top: 18px;
+    &:hover {
+        box-shadow: 0 0 9px #d8ad47;
+    }
+}
