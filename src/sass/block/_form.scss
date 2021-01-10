@@ -1,0 +1,39 @@
+.form {
+    width: 436px;
+    height: 263px;
+    padding: 28px 50px 0 50px;
+    border-radius: 40px;
+    background-color: rgba(256,256,256, 0.2);
+    &__title {
+        color: $lait-color;
+        font-size: 17px;
+        font-weight: 400;
+        text-align: center;
+    }
+    input::placeholder {
+        color: $lait-color;
+        opacity: 0.8;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: "Poiret One";
+    }
+    input {
+        display: block;
+        margin-top: 25px;
+        width: 100%;
+        height: 25px;
+        border: none;
+        background: transparent;
+        border-bottom: 2px solid $lait-color;
+        font-family: "Poiret One";
+        font-size: 16px;
+        font-weight: 400;
+    }
+    &_btn {
+        display: block;
+        margin: 0 auto;
+        width: 83px;
+        height: 37px;
+        margin-top: 25px;
+    }
+}

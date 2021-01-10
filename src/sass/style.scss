@@ -47,7 +47,14 @@ ul {
 	color: $lait-color;
 }
 
+.flex-start {
+	justify-content: flex-start;
+}
+
 @import "block/promo";
 @import "block/buttons";
 @import "block/about";
 @import "block/projects";
+@import "block/contants";
+@import "block/form";
+@import "block/footer";
