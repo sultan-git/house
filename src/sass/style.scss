@@ -51,6 +51,12 @@ ul {
 	justify-content: flex-start;
 }
 
+.error {
+	color: #fff;
+	font-size: 17px;
+	font-weight: 600;
+}
+
 @import "block/promo";
 @import "block/buttons";
 @import "block/about";

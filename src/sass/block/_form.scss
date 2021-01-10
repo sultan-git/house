@@ -1,7 +1,7 @@
 .form {
     width: 436px;
-    height: 263px;
-    padding: 28px 50px 0 50px;
+    min-height: 263px;
+    padding: 28px 50px 28px 50px;
     border-radius: 40px;
     background-color: rgba(256,256,256, 0.2);
     &__title {
@@ -26,8 +26,16 @@
         background: transparent;
         border-bottom: 2px solid $lait-color;
         font-family: "Poiret One";
+        color: $lait-color;
         font-size: 16px;
         font-weight: 400;
+        
+        
+    }
+    input.error {
+        color: #fff;
+        border-bottom: 2px solid red;
+        margin-bottom: 10px;        
     }
     &_btn {
         display: block;
