@@ -3,6 +3,7 @@
 
 * {
 	font-family: 'Montserrat Alternates', sans-serif;
+	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 }
@@ -21,22 +22,32 @@ ul {
 
 .container {
 	position: relative;
-	max-width: 950px;
+	max-width: 1320px;
 	margin: 0 auto;
 	padding: 0 10px;
+}
+
+.wrap {
+    display: flex;
+	justify-content: space-between;  
+	flex-wrap: wrap;  
 }
 
 .title {    
     font-family: "Montserrat Alternates";
     font-size: 28px;
-    font-weight: 600;
+	font-weight: 600;
+	color: $main-color;
 }
 
 .descr {
     font-family: "Poiret One";
     font-size: 16px;
-    font-weight: 400;
+	font-weight: 400;
+	color: $lait-color;
 }
 
 @import "block/promo";
 @import "block/buttons";
+@import "block/about";
+@import "block/projects";

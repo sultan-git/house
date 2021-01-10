@@ -1,0 +1,45 @@
+.about-as {
+    height: 612px;
+    background-color: #020710;
+    color: $lait-color;
+    &__info {        
+        hr {
+            margin-top: 45px;
+        }
+    }
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 45px;        
+        max-width: 590px;
+        img {
+            padding-right: 10px;
+            width: 100%;
+        }
+        .descr {
+            font-size: 20px;
+            color: $main-color;
+        }
+    }
+    &_title {
+        color: $main-color;
+        margin-top: 35px;
+    }
+    &_descr {
+        margin-top: 22px;
+        max-width: 441px;
+    }
+    &__img {
+        padding-top: 35px;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.title_building {
+    margin-top: 39px;
+    color: $lait-color;
+    font-size: 23px;
+}

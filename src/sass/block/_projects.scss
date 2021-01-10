@@ -1,0 +1,95 @@
+.projects{
+    background: url("../img/projects-bg.png") center (center/cover) no-repeat;
+    min-height: 1041px;
+    padding: 166px 0 103px 0;    
+    &_title {
+        padding-top: 18px;
+    }
+    &_descr {
+        padding-top: 22px;
+        max-width: 540px;
+    }
+    &_btn {
+        width: 198px;
+    }
+    &__item {        
+        border: 1px solid #0b1526;
+        border-radius: 40px;
+        padding: 17px 0 0 34px;        
+        // &:hover {
+        //     border: none;
+        //     box-shadow: 0 0 9px $main-color;
+        //     border-radius: 40px;
+        // }
+        div {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            color: $lait-color;
+            font-size: 17px;
+            font-weight: 400;
+            margin-top: 16px;
+            span {
+                padding-left: 10px;
+            }
+        }
+    }
+    &-title {        
+        &_big {   
+            color: $lait-color;         
+            font-size: 69px;
+            font-weight: 900;
+        }&_small {
+            color: $lait-color;
+            font-size: 52px;
+            font-weight: 900;
+        }
+    }
+    &__btn {
+        width: 117px;
+        height: 37px;
+        color: $lait-color;
+        background-color: transparent;
+        border-radius: 19px;
+        border: 2px solid $lait-color;
+        &:hover {
+            color: $lait-color;
+            background-color: $main-color;
+            border: none;
+        }
+    }
+}
+.big {
+    background: url("../img/boston-img.png") center (center/cover) no-repeat;
+    width: 718px;
+    height: 364px;
+}
+
+.litle {
+    width: 413px;
+    height: 364px;
+    margin-top: 44px;
+    &:nth-child(1) {
+        background: url("../img/maiami.png") center (center/cover) no-repeat; 
+    }
+    &:nth-child(2) {
+        background: url("../img/syetl.png") center (center/cover) no-repeat; 
+    }
+    &:nth-child(3) {
+        background: url("../img/orlando.png") center (center/cover) no-repeat; 
+    }
+}
+.square {
+    font-size: 31px;
+    font-weight: 700;
+    sup {
+        font-size: 14px;
+        padding-left: 5px;
+    }
+}
+.mt38 {
+    margin-top: 38px;
+}
+.mt22 {
+    margin-top: 22px;
+}
